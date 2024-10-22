@@ -13,7 +13,7 @@ const gui = new GUI({
     title: 'Galaxy Settings',
     closeFolders: true
 })
-gui.domElement.style.cssText = 'position: absolute; top: 10px; left: 10px;'
+gui.domElement.style.cssText = 'position: absolute; top: 10px; left: 50%; transform: translateX(-50%);'
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
